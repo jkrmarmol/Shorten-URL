@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E84A5F;
+    width: 100%;
+}
+
+div.container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+    height: 420px;
+}
+
+#responseField {
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 190px;
+    background-color: #2A363B;
+    color: white;
+    padding: 10px;
+}
+
+#submitButton {
+    background-color: #2A363B;
+    color: #E84A5F;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 20px;
+    width: 120px;
+    font-weight: bold;
+    border: 2.5px solid white;
+}
+
+#wordInput {
+    background-color: transparent;
+    border: 2px solid #2A363B;
+    height: 20px;
+    width: 190px;
+    padding: 10px;
+    outline: none;
+    font-size: 21px;
+}
