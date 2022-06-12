@@ -1,5 +1,6 @@
 const shortenUrl = async () => {
-    const data = JSON.stringify({"destination": "https://google.com"})
+    const linkInput = document.getElementById('wordInput');
+    const data = JSON.stringify({"destination": linkInput.value})
     try {
         const response = await fetch('https://api.rebrandly.com/v1/links', {
             method: 'POST',
